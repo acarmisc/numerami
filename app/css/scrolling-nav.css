@@ -18,3 +18,16 @@ section {
   background-size:cover;
   background-blend-mode: multiply;
 }
+
+.taken-number {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    border: 3px dashed #ddd;
+    text-align: center;
+    vertical-align: middle;
+    background: #eee;
+    font-family: monospace;
+    font-size: 50px;
+    margin: 5px;
+}
