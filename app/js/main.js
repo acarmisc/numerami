@@ -9,6 +9,7 @@ $( "#theform" ).submit(function( event ) {
   posting.done(function( data ) {
     var content = data;
     console.log(data);
+    $("#number").val('');
     $( "#result" ).append('<div class="taken-number">'+data.number+'</div>');
     $( "#submit-btn").html('Prenotane un altro!')
   });
